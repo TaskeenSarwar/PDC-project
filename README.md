@@ -1,14 +1,16 @@
-PDC Project: Parallel vs Sequential Quicksort Performance
-A comprehensive performance comparison between sequential and parallel implementations of the quicksort algorithm using Python's multiprocessing capabilities.
+🚀 PDC Project: Parallel vs Sequential Quicksort
+A high-performance comparison between sequential and parallel quicksort algorithms using Python multiprocessing.
 
-🚀 Features
-Sequential QuickSort - Classic recursive implementation
+📋 Overview
+This project benchmarks traditional recursive quicksort against an optimized parallel implementation that uses ProcessPoolExecutor for concurrent sorting.
 
-Parallel QuickSort - Multi-process optimization with ProcessPoolExecutor
+✨ Features
+⚡ Sequential QuickSort - Classic divide-and-conquer implementation
 
-Performance Analysis - Tests on datasets from 10K to 1M elements
+🔥 Parallel QuickSort - Multi-process optimization with configurable workers
 
-Visual Results - Automated charts and CSV exports
+📈 Performance Analysis - Tests datasets from 10,000 to 1,000,000 elements
 
-📊 Results
-Measures speedup across different dataset sizes with configurable worker processes. Perfect for demonstrating parallel computing benefits!
+📊 Visual Analytics - Automated charts and CSV export
+
+🔧 Configurable - Easy to adjust workers and dataset sizes
