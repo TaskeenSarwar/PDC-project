@@ -14,11 +14,16 @@ This project benchmarks traditional recursive quicksort against an optimized par
 - **📊 Visual Analytics** - Automated charts 
 - **🔧 Configurable** - Easy to adjust workers and dataset sizes
 
+## 🎯 Technology Stack
 
-## 🛠️ Installation & Usage
+- **Python 3.x** - Core programming language
+- **Multiprocessing** - Parallel execution framework  
+- **Matplotlib** - Data visualization and charting
+- **Pandas** - Data analysis and CSV handling
 
-```bash
-git clone https://github.com/yourusername/PDC-project.git
-cd PDC-project
-python quicksort_benchmark.py
+## 📈 Performance Metrics
 
+- **Execution time comparison** - Sequential vs parallel execution times
+- **Speedup analysis** - Performance improvement ratios
+- **Scalability across dataset sizes** - How performance scales with data volume
+- **Worker efficiency metrics** - Processor utilization and efficiency
