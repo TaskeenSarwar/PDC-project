@@ -1,5 +1,6 @@
-# PDC-project
+PDC Project: Parallel vs Sequential Quicksort Performance
 A comprehensive performance comparison between sequential and parallel implementations of the quicksort algorithm using Python's multiprocessing capabilities.
+
 🚀 Features
 Sequential QuickSort - Classic recursive implementation
 
