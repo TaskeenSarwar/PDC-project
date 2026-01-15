@@ -18,7 +18,7 @@ def quicksort(arr):
 
 
 # Parallel quicksort
-def parallel_quicksort(arr, num_workers=5):
+def parallel_quicksort(arr, num_workers=2):
     """Parallel quicksort for small datasets"""
     if len(arr) <= 2000:
         return quicksort(arr)
@@ -109,7 +109,7 @@ if __name__ == "__main__":
     plt.bar([x - width/2 for x in x_pos], df["Sequential"], width, 
             label="Sequential", color='blue', alpha=0.7)
     plt.bar([x + width/2 for x in x_pos], df["Parallel"], width, 
-            label="Parallel (5 workers)", color='red', alpha=0.7)
+            label="Parallel (2 workers)", color='red', alpha=0.7)
     
     plt.xlabel("Dataset Size", fontsize=12)
     plt.ylabel("Execution Time (seconds)", fontsize=12)
